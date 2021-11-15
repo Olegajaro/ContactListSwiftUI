@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		100EB56C273D9CF2005EDC91 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EB56B273D9CF2005EDC91 /* ContactDetail.swift */; };
-		100EB570273DA3A0005EDC91 /* ContactDetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EB56F273DA3A0005EDC91 /* ContactDetailSection.swift */; };
 		105DAB5E273D8A1400A90A1E /* ContactListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DAB5D273D8A1400A90A1E /* ContactListSwiftUIApp.swift */; };
 		105DAB60273D8A1400A90A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DAB5F273D8A1400A90A1E /* ContentView.swift */; };
 		105DAB62273D8A1400A90A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105DAB61273D8A1400A90A1E /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		100EB56B273D9CF2005EDC91 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
-		100EB56F273DA3A0005EDC91 /* ContactDetailSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailSection.swift; sourceTree = "<group>"; };
 		105DAB5A273D8A1400A90A1E /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		105DAB5D273D8A1400A90A1E /* ContactListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftUIApp.swift; sourceTree = "<group>"; };
 		105DAB5F273D8A1400A90A1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				105DAB6F273D8BC100A90A1E /* ContactList.swift */,
 				105DAB71273D8BCF00A90A1E /* SecondContactList.swift */,
 				100EB56B273D9CF2005EDC91 /* ContactDetail.swift */,
-				100EB56F273DA3A0005EDC91 /* ContactDetailSection.swift */,
 				105DAB61273D8A1400A90A1E /* Assets.xcassets */,
 				105DAB63273D8A1400A90A1E /* Preview Content */,
 				105DAB6D273D8B2B00A90A1E /* Person.swift */,
@@ -157,7 +154,6 @@
 			files = (
 				100EB56C273D9CF2005EDC91 /* ContactDetail.swift in Sources */,
 				105DAB60273D8A1400A90A1E /* ContentView.swift in Sources */,
-				100EB570273DA3A0005EDC91 /* ContactDetailSection.swift in Sources */,
 				105DAB6C273D8A6F00A90A1E /* DataManager.swift in Sources */,
 				105DAB72273D8BCF00A90A1E /* SecondContactList.swift in Sources */,
 				105DAB6E273D8B2B00A90A1E /* Person.swift in Sources */,

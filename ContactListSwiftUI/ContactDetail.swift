@@ -12,27 +12,25 @@ struct ContactDetail: View {
     let person: Person
     
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "person.fill")
-                .resizable()
-                .frame(width: 200, height: 200)
+        List {
+            HStack {
+                Spacer()
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding([.bottom, .top])
+                Spacer()
+            }
             
-            Divider()
-            
-            ContactDetailSection(
-                phone: person.phone,
-                email: person.email
-            )
-            
-            Spacer()
+            Label(person.phone, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
         }
-        .padding()
         .navigationTitle(person.fullName)
     }
 }
 
 struct ContactDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContactDetail(person: Person.getContactList()[0])
+        ContactDetail(person: Person.getContactList().first!)
     }
 }

@@ -15,10 +15,8 @@ struct SecondContactList: View {
         NavigationView {
             List(persons) { person in
                 Section {
-                    ContactDetailSection(
-                        phone: person.phone,
-                        email: person.email
-                    )
+                    Label(person.phone, systemImage: "phone")
+                    Label(person.email, systemImage: "tray")
                 } header: {
                     Text(person.fullName)
                         .foregroundColor(.black)
